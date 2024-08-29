@@ -1,10 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 <head>
-<title>
-Blog
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাংলা সিনেমা ওয়েবসাইট</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0e0e0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .movie {
+            background-color: #fff;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+        .movie h3 {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        .movie p {
+            padding: 0 10px 10px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-<h1>HELLO WORLD </h1>
+
+    <header>
+        <h1>বাংলা সিনেমা</h1>
+    </header>
+
+    <nav>
+        <a href="#home">প্রথম পাতা</a>
+        <a href="#latest">নতুন সিনেমা</a>
+        <a href="#popular">জনপ্রিয় সিনেমা</a>
+        <a href="#contact">যোগাযোগ</a>
+    </nav>
+
+    <main>
+        <h2 id="latest">নতুন সিনেমা</h2>
+        <div class="movie-list">
+            <div class="movie">
+                <img src="https://example.com/path-to-movie-poster.jpg" alt="সিনেমা ১">
+                <h3>সিনেমা ১</h3>
+                <p>একটি চমৎকার বাংলা সিনেমা যা পরিবারের সাথে উপভোগ করতে পারবেন।</p>
+            </div>
+            <div class="movie">
+                <img src="movie-poster-2.jpg" alt="সিনেমা ২">
+                <h3>সিনেমা ২</h3>
+                <p>এই সিনেমাটি রোমাঞ্চকর গল্পে ভরপুর।</p>
+            </div>
+            <div class="movie">
+                <img src="movie-poster-3.jpg" alt="সিনেমা ৩">
+                <h3>সিনেমা ৩</h3>
+                <p>একটি অসাধারণ বাংলা রোমান্টিক সিনেমা।</p>
+            </div>
+        </div>
+
+        <h2 id="popular">জনপ্রিয় সিনেমা</h2>
+        <div class="movie-list">
+            <div class="movie">
+                <img src="movie-poster-4.jpg" alt="সিনেমা ৪">
+                <h3>সিনেমা ৪</h3>
+                <p>বাংলা চলচ্চিত্রের একটি বিখ্যাত ছবি যা এখনো জনপ্রিয়।</p>
+            </div>
+            <div class="movie">
+                <img src="https://raw.githubusercontent.com/Iptvbdfree/Playlist-/main/jamuna_tv_bd.png" alt="সিনেমা ৫">
+                <h3>সিনেমা ৫</h3>
+                <p>এই সিনেমাটি হৃদয়স্পর্শী গল্প নিয়ে নির্মিত।</p>
+            </div>
+            <div class="movie">
+                <img src="movie-poster-6.jpg" alt="সিনেমা ৬">
+                <h3>সিনেমা ৬</h3>
+                <p>জনপ্রিয় বাংলা থ্রিলার সিনেমা।</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>কপিরাইট © ২০২৪ বাংলা সিনেমা ওয়েবসাইট</p>
+    </footer>
+
+
+<p style="color:blue; font-size:20px;">এটি একটি নীল রঙের বড় টেক্সট।</p>
 </body>
 </html>
